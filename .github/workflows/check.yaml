@@ -11,7 +11,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ 'windows-2019', 'macOS-10.15', 'ubuntu-20.04' ]
+        os: [ 'windows-2019' ]
         r:  [ '4.0.2' ]
         java: [ 8, 11 ]
 
